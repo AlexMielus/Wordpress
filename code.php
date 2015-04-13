@@ -2,7 +2,7 @@
 
 function add_featured_image_in_rss() {
 
-    if ( function_exists( 'get_the_image' ) and ( $featured_image = get_the_image('format=array&echo=0') ) ) {
+    if ( function_exists( 'get_the_image' ) && ( $featured_image = get_the_image('format=array&echo=0') ) ) {
         $featured_image[0] = $featured_image['url'];
     } elseif ( function_exists( 'has_post_thumbnail' ) and has_post_thumbnail() ) {
         $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id(), 'post-thumbnail' );
