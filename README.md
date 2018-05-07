@@ -1,2 +1,2 @@
 # Wordpress
-A collection of php code for WordPress.
+A collection of php snippets (for WordPress, or not).
