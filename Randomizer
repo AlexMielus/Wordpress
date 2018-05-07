@@ -1,0 +1,11 @@
+<?php
+  $a = [
+    '5XyyhMeicd8',
+    '-HouJYX3ICI',
+    'ZOfyEGqmGTc',
+    'U02d-Rtfq1Q',
+    'FQAgwrWIZpw'
+  ];
+  $video = $a[mt_rand(0, count($a) - 1)];
+  echo '<iframe width="800" height="452" src="https://www.youtube.com/embed/' . $video . '?rel=0&amp;showinfo=0&amp;enablejsapi=1" frameborder="0" allowfullscreen></iframe>';
+?>
